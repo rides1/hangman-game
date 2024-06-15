@@ -8,7 +8,8 @@ const Popup = () => {
       <h3 id="final-message-reveal-word"></h3>
       <button id="play-button">Play Again</button>
     </div>
-  </div>  )
+  </div>  
+  )
 }
 
 export default Popup
