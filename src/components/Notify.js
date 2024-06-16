@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Notify = () => {
+const Notify = ({showNotification}) => {
   return (
-    <div class="notification-container" id="notification-container">
+    <div className={`notification-container ${showNotification ? 'show' : ''}`}>
     <p>You have already entered this letter</p>
-  </div>
-    )
+    </div>
+  )
 }
 
 export default Notify
