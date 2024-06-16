@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Hangman 
+This program displays the hangman game using react. 
 
 
 ## Available Scripts
